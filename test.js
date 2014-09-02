@@ -1,5 +1,5 @@
 var test = require('tape'),
-    interpolate = require('./');
+    interpolate = require('./').interpolate;
 
 
 test('interpolate', function(t) {
