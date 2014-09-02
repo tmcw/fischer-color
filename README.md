@@ -2,6 +2,8 @@
 
 [![build status](https://secure.travis-ci.org/mapbox/fischer-color.png)](http://travis-ci.org/mapbox/fischer-color)
 
+![](example.png)
+
 A JavaScript implementation of [Eric Fischer](https://github.com/ericfischer)'s
 simple and perceptually friendly color interpolation.
 
