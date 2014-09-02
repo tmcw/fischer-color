@@ -21,4 +21,4 @@ Input:
 
 Returns:
 
-* an array of `[red, green, blue]
+* an array of `[red, green, blue]`
