@@ -1,9 +1,9 @@
 module.exports.interpolate =
 
 /**
- * @param l luminosity in range of [0..1]
- * @param c chroma in [0..1]
  * @param h hue in range of [0..2π]
+ * @param c chroma in [0..1]
+ * @param l luminosity in range of [0..1]
  * @returns Array of [r, g, b] values.
  */
 function interpolate(h, c, l) {
