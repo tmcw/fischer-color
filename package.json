@@ -1,0 +1,23 @@
+{
+  "name": "fischer-interpolate",
+  "version": "0.0.0",
+  "description": "Eric Fischer's perceptually accurate and computationally friendly color interpolation algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "fischer",
+    "eric",
+    "interpolation",
+    "color",
+    "cie",
+    "lab",
+    "rgb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "~2.14.0"
+  }
+}
