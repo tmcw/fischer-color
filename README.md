@@ -1,6 +1,6 @@
 # Fischer Color
 
-[![build status](https://secure.travis-ci.org/mapbox/fischer-color.png)](http://travis-ci.org/mapbox/fischer-color)
+[![build status](https://secure.travis-ci.org/tmcw/fischer-color.svg)](http://travis-ci.org/tmcw/fischer-color)
 [![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/fischer-color.svg)](https://greenkeeper.io/)
 
 ![](example.png)
