@@ -2,10 +2,18 @@
   "name": "fischer-color",
   "version": "0.0.0",
   "description": "Eric Fischer's perceptually accurate and computationally friendly color interpolation algorithm",
-  "main": "index.js",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "module": "dist/index.es.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "microbundle && tape test.js",
+    "release": "microbundle && standard-version"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "fischer",
     "eric",
@@ -15,9 +23,13 @@
     "lab",
     "rgb"
   ],
-  "author": "",
+  "author": "Tom MacWright",
   "license": "ISC",
   "devDependencies": {
+    "microbundle": "^0.9.0",
     "tape": "~4.9.0"
+  },
+  "dependencies": {
+    "standard-version": "^4.4.0"
   }
 }
