@@ -1,6 +1,6 @@
 {
   "name": "fischer-color",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Eric Fischer's perceptually accurate and computationally friendly color interpolation algorithm",
   "source": "index.js",
   "main": "dist/index.js",
