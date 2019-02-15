@@ -30,6 +30,6 @@
     "tape": "~4.10.0"
   },
   "dependencies": {
-    "standard-version": "^4.4.0"
+    "standard-version": "^5.0.0"
   }
 }
